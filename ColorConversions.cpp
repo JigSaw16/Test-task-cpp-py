@@ -56,9 +56,7 @@ std::vector<int> extract_RGBA(std::vector<std::string> vec_RvGvBvA, int it) {
 			else
 				vRGBA.push_back(std::stoi(col));
 		}
-
 	}
-
 	return vRGBA;
 }
 
